@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jerry3"
+    tools:context=".home">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#F8BBD0"
+        android:fontFamily="@font/black_ops_one"
+        android:onClick="exit"
+        android:shadowColor="#A52525"
+        android:text="exıt"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="53dp"
+        android:background="#00F3C4E5"
+        android:fontFamily="@font/black_ops_one"
+        android:text="CATCH THE JERRY"
+        android:textColor="#D64C7C"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="52dp"
+        android:background="#00F3C4E5"
+        android:fontFamily="@font/black_ops_one"
+        android:text="CATCH THE JERRY"
+        android:textColor="#F6F6F6"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#F8BBD0"
+        android:fontFamily="@font/black_ops_one"
+        android:onClick="start"
+        android:shadowColor="#A52525"
+        android:text="start"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
